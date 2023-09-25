@@ -27,11 +27,7 @@ Data Reading and Merging:
 
 Duplicate Data Handling:
 
--The analysis identifies potential data quality issues related to duplicate entries for the same mouse at the same timepoint.
--Duplicate data for the mouse with ID "g989" is detected by checking for duplicated rows based on the "Mouse ID" and "Timepoint" columns. These duplicates are stored in a variable called duplicated_id.
--A separate DataFrame, duplicated_data, is created to count the number of duplicate entries for each mouse and timepoint combination.
--The script then isolates the specific mouse IDs (duplicated_id) that have more than one entry, indicating duplicate data.
-
+-Duplicate data for the mouse ID "g989" is identified and stored in a separate DataFrame named duplicate_g989. This allows for further examination or validation of the duplicated data.
 
 Data Cleaning:
 
