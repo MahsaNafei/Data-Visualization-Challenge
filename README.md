@@ -1,10 +1,10 @@
 ## Analysis
 
--The code offers a thorough examination of the mouse research dataset, including data cleaning, statistical analysis, data visualization, and summary statistics.
+- The code offers a thorough examination of the mouse research dataset, including data cleaning, statistical analysis, data visualization, and summary statistics.
 
--It aids in the visualization of the tumor volume distribution for particular medication regimens and the identification of potential outliers.
+- It aids in the visualization of the tumor volume distribution for particular medication regimens and the identification of potential outliers.
 
--For mice given Capomulin treatment, the correlation and regression analysis indicates a somewhat positive association between mouse weight and tumor volume, with an R-squared value indicating that almost 70% of the variability in tumor volume may be attributed to mouse weight.
+- For mice given Capomulin treatment, the correlation and regression analysis indicates a somewhat positive association between mouse weight and tumor volume, with an R-squared value indicating that almost 70% of the variability in tumor volume may be attributed to mouse weight.
 
 
 
@@ -31,7 +31,7 @@ Data Loading:
 
 #### Duplicate Data Handling:
 
--Duplicate data for the mouse ID "g989" is identified and stored in a separate DataFrame named duplicate_g989. This allows for further examination or validation of the duplicated data.
+- Duplicate data for the mouse ID "g989" is identified and stored in a separate DataFrame named duplicate_g989. This allows for further examination or validation of the duplicated data.
 
 #### Data Cleaning:
 
